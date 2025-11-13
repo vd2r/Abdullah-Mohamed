@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مقهى | معرض الاعمال</title>
+</head>
+<style>
+    body{
+        padding: 0;
+    margin: 0;
+    }
+
+    .bost{
+        display: flex;
+    }
+    img{
+        margin-top: -5px;
+    }
+         /* كل الصور تاخذ عرض الشاشة وتتكيف */
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* تنسيق صف الصور */
+        .bost {
+            display: flex;
+            flex-wrap: wrap; /* يخلي الصور تنزل سطر إذا ضاق المكان */
+        }
+
+        .bost img {
+            width: 50%; /* صورتين بالصف */
+        }
+
+        /* لما تكون الشاشة صغيرة (مثلاً موبايل) */
+        @media (max-width: 768px) {
+            .bost img {
+                width: 100%; /* صورة وحدة بالصف */
+            }
+        }
+</style>
+<body>
+
+<img src="coffee/1.png" width="1264px">
+<img src="coffee/2.png" width="1264px">
+<img src="coffee/3.png" width="1264px">
+<img src="coffee/4.png" width="1264px">
+<img src="coffee/5.png" width="1264px">
+<img src="coffee/6.png" width="1264px">
+<img src="coffee/7.jpg" width="1264px">
+<img src="coffee/8.png" width="1264px">
+<img src="coffee/9.png" width="1264px">
+<img src="coffee/10.png" width="1264px">
+<img src="coffee/11.png" width="1264px">
+<img src="coffee/12.png" width="1264px">
+<img src="coffee/13.png" width="1264px">
+
+
+<div class="bost">
+<img src="coffee/b1.png" width="633px">
+<img src="coffee/b2.png" width="633px">
+</div>
+
+<div class="bost">
+<img src="coffee/b3.png" width="633px">
+<img src="coffee/b4.png" width="633px">
+</div>
+
+<div class="bost">
+<img src="coffee/b5.png" width="633px">
+<img src="coffee/b6.png" width="633px">
+</div>
+
+
+
+
+</body>
+</html>

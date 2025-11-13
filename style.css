@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+* {
+    font-family: "Tajawal", sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ========================== */
+/* القسم الأول (الهيدر) */
+/* ========================== */
+.hedor {
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.img1 {
+    width: 280px;
+    height: 280px;
+    margin: 20px;
+}
+
+.img-text {
+    color: aliceblue;
+    text-align: end;
+    padding: 20px;
+    max-width: 600px;
+}
+
+.img-text p {
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.img-text h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+    color: #fecb00;
+}
+
+/* ========================== */
+/* معرض الأعمال */
+/* ========================== */
+.inoan {
+    text-align: center;
+}
+
+.inoan img {
+    width: 100%;
+    height: auto;
+}
+
+.inoan h1 {
+    font-weight: 400;
+    font-size: 70px;
+    margin: 20px 0;
+}
+
+/* ========================== */
+/* البوستات (الأعمال) */
+/* ========================== */
+.btn {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.btn1, .btn12 {
+    width: 550px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 20px;
+}
+
+.btn1 img, .btn12 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn1 h1, .btn12 h1 {
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.btn1 p, .btn12 p {
+    font-weight: 300;
+    padding: 0 20px;
+}
+
+.btn1 a, .btn12 a {
+    color: black;
+    font-size: 15px;
+}
+
+button {
+    background-color: #fecb00;
+    margin-top: 15px;
+    padding: 10px 25px;
+    border-radius: 0px 20px 0px 20px;
+    border: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #e8ba04;
+    cursor: pointer;
+}
+
+/* ========================== */
+/* الفوتر */
+/* ========================== */
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px 10px;
+}
+
+footer a {
+    color: #fecb00;
+}
+
+/* ========================== */
+/* الصورة الأخيرة */
+/* ========================== */
+.inoan1 {
+    line-height: 0;
+}
+
+.inoan1 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.contact-section {
+    text-align: center;
+    padding: 70px 20px;
+    background-color: #000000;
+    margin-top: -3px;
+}
+
+.contact-section h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.contact-section p {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.contact-item {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    background-color: #fecb00;
+    padding: 15px 25px;
+    border-radius: 0px 20px 0px 20px;
+    transition: 0.3s ease;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item:hover {
+    transform: scale(1.05);
+    background-color: #e8ba04;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+
+i{
+    margin-right:5px ;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+
+
+/* ========================== */
+/* 🌍 التصميم المتجاوب */
+/* ========================== */
+
+/* شاشات التابلت */
+@media (max-width: 992px) {
+    .img-text {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .img-text h1 {
+        font-size: 45px;
+    }
+
+    .inoan h1 {
+        font-size: 55px;
+    }
+
+    .btn1, .btn12 {
+        width: 90%;
+    }
+}
+/* أيقونات الايميل والواتساب */
+
+
+
+/* شاشات الموبايل */
+@media (max-width: 600px) {
+    .hedor {
+        flex-direction: column;
+        padding: 40px 10px;
+    }
+
+    .img1 {
+        width: 200px;
+        height: 200px;
+        padding: 0;
+    }
+
+    .img-text {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .img-text h1 {
+        font-size: 35px;
+    }
+
+    .img-text p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .inoan h1 {
+        font-size: 40px;
+    }
+
+    .btn {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .btn1, .btn12 {
+        width: 95%;
+    }
+
+    .btn1 h1, .btn12 h1 {
+        font-size: 22px;
+    }
+
+    .btn1 p, .btn12 p {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    button {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+}
+
+/* ========================== */
+/* قسم التواصل */
+/* ========================== */
+
+
+/* متجاوب للموبايل */
+@media (max-width: 600px) {
+    .contact-section h1 {
+        font-size: 32px;
+    }
+
+    .contact-item {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+}
+
+
+/* تأثير التلاشي عند الظهور */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عيادة أسنان | معرض الأعمال</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            font-family: sans-serif;
+        }
+
+        /* كل الصور تاخذ عرض الشاشة وتتكيف */
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* تنسيق صف الصور */
+        .bost {
+            display: flex;
+            flex-wrap: wrap; /* يخلي الصور تنزل سطر إذا ضاق المكان */
+        }
+
+        .bost img {
+            width: 50%; /* صورتين بالصف */
+        }
+
+        /* لما تكون الشاشة صغيرة (مثلاً موبايل) */
+        @media (max-width: 768px) {
+            .bost img {
+                width: 100%; /* صورة وحدة بالصف */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- صور المعرض -->
+    <img src="asnan/1.jpg" alt="">
+    <img src="asnan/2.png" alt="">
+    <img src="asnan/3.png" alt="">
+    <img src="asnan/4.png" alt="">
+    <img src="asnan/5.png" alt="">
+    <img src="asnan/6.png" alt="">
+    <img src="asnan/7.jpg" alt="">
+    <img src="asnan/8.jpg" alt="">
+    <img src="asnan/9.jpg" alt="">
+    <img src="asnan/10.jpg" alt="">
+    <img src="asnan/11.jpg" alt="">
+    <img src="asnan/12.jpg" alt="">
+    <img src="asnan/13.jpg" alt="">
+    <img src="asnan/14.jpg" alt="">
+    <img src="asnan/15.jpg" alt="">
+
+    <!-- صفوف الصور -->
+    <div class="bost">
+        <img src="asnan/b1.png" alt="">
+        <img src="asnan/b2.png" alt="">
+    </div>
+
+    <div class="bost">
+        <img src="asnan/b3.png" alt="">
+        <img src="asnan/b4.png" alt="">
+    </div>
+
+    <div class="bost">
+        <img src="asnan/b5.png" alt="">
+        <img src="asnan/b6.png" alt="">
+    </div>
+
+</body>
+</html>

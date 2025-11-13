@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>طلبات | معرض الاعمال</title>
+    <style>
+    body{
+        padding: 0;
+    margin: 0;
+    }
+         /* كل الصور تاخذ عرض الشاشة وتتكيف */
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* تنسيق صف الصور */
+        .bost {
+            display: flex;
+            flex-wrap: wrap; /* يخلي الصور تنزل سطر إذا ضاق المكان */
+        }
+
+        .bost img {
+            width: 50%; /* صورتين بالصف */
+        }
+
+        /* لما تكون الشاشة صغيرة (مثلاً موبايل) */
+        @media (max-width: 768px) {
+            .bost img {
+                width: 100%; /* صورة وحدة بالصف */
+            }
+        }
+
+</style>
+</head>
+<body>
+    <img src="تلبات.png" width="1264px">
+</body>
+</html>
