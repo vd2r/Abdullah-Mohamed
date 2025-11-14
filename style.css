@@ -108,6 +108,14 @@ body {
     font-size: 15px;
 }
 
+
+.btn12 h1{
+   
+       direction: rtl;        /* اتجاه الكتابة من اليمين لليسار */
+    unicode-bidi: plaintext; /* يحافظ على ترتيب الكلمات العربي-إنجليزي */
+}
+
+
 button {
     background-color: #fecb00;
     margin-top: 15px;
@@ -320,3 +328,4 @@ i{
   opacity: 1;
   transform: translateY(0);
 }
+
