@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مامامي | معرض الاعمال</title>
+</head>
+<style>
+    body{
+        padding: 0;
+    margin: 0;
+    }
+img{
+        margin-top: -5px;
+    }
+    .bost{
+        display: flex;
+    }
+         /* كل الصور تاخذ عرض الشاشة وتتكيف */
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* تنسيق صف الصور */
+        .bost {
+            display: flex;
+            flex-wrap: wrap; /* يخلي الصور تنزل سطر إذا ضاق المكان */
+        }
+
+        .bost img {
+            width: 50%; /* صورتين بالصف */
+        }
+
+        /* لما تكون الشاشة صغيرة (مثلاً موبايل) */
+        @media (max-width: 768px) {
+            .bost img {
+                width: 100%; /* صورة وحدة بالصف */
+            }
+        }
+</style>
+<body>
+    
+
+<img src="comp/cm.png" width="1264px" loading="lazy" alt="">
+
+
+
+<div class="bost">
+<img src="comp/1.avif"  width="633px" loading="lazy" alt="">
+<img src="comp/2.avif"  width="633px" loading="lazy" alt="">
+</div>
+
+<div class="bost">
+<img src="comp/3.avif" width="633px" loading="lazy" alt="">
+<img src="comp/5.avif"  width="633px" loading="lazy" alt="">
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
